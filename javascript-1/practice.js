@@ -30,17 +30,19 @@ function sum(num1, num2){
 
 //////////////////PROBLEM 5////////////////////
 
-// Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
+// Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. 
+// Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
 
 //Code here
 
-// function loveCodeChecker(x){
-// 	if(x===true){
-// 		return true;
-// 	}else{
-// 		return false;
-// 	}
-// }
+
+function lovesCodeChecker(x){
+	if(x === true){
+		return true;
+	} else {
+		return false;
+	}
+}
 
 
 //////////////////PROBLEM 6////////////////////
@@ -68,9 +70,10 @@ iLove(NAMEPARAM, LOVEPARAM);
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
-const faveColors = ['red', 'green', 'black']
+let faveColors = ['red', 'green', 'black']
 
 //Code Here
+// colorCopy = faveColors.slice();
 let colorCopy = faveColors.slice();
 
 //////////////////PROBLEM 9////////////////////
